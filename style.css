@@ -1,11 +1,17 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
 .logo{
     width: 100px;
 }
 
 #videoHome{
-  display: flex;
   margin-top: 3px;
-  width: 500px;
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
 }
 
 #headHome{
@@ -15,33 +21,68 @@
 
 #sectionContainer{
   display: flex;
-  
+
 }
 
 #sectionHomeText{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 700px;
-  
+  width: 600px;  
+  margin-right: 100px;
+  background-color: #04AA6D;
+  box-shadow: 10px 10px;
+
 }
 
-  #sectionHomeText > p {
-      justify-content: space-around;
+  #sectionHomeText > article > p {
+    justify-content: space-around;
       
   }
 
-  #sectionHomeText > em{
+  #sectionHomeText > article > em{
     font-size: 20px;
     font-weight: 900;
   }
 
 
 #sectionHomeImg{
-  flex-direction: column;
-  width: 100px;
-  margin-left: 100px;
+  width: 200px;
+  margin-top: auto;
+  border-radius: 50px 20px
+  
 }  
+
+#aside{
+  margin-left: 5%;
+}
+
+#cookieSection{
+  float: right;
+}
+
+
+#cookie{
+  width: 300px;
+  color: #fff;
+  opacity: 50%;
+  background-color: #fA0;
+  text-align: center;
+  position: fixed;
+}
+
+#footerHome{
+    margin-top: 20px;;
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    height: 30px;
+    text-align: center;
+    
+
+}
+
 
 
 /* nav bar */
@@ -54,11 +95,11 @@ ul {
     background-color: #f3f3f3;
   }
   
-  li {
+  ul > li {
     float: left;
   }
   
-  li a {
+  ul > li a {
     display: block;
     color: #666;
     text-align: center;
