@@ -2,6 +2,48 @@
     width: 100px;
 }
 
+#videoHome{
+  display: flex;
+  margin-top: 3px;
+  width: 500px;
+}
+
+#headHome{
+  font-size: larger;
+  margin-top: 30px;
+}
+
+#sectionContainer{
+  display: flex;
+  
+}
+
+#sectionHomeText{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 700px;
+  
+}
+
+  #sectionHomeText > p {
+      justify-content: space-around;
+      
+  }
+
+  #sectionHomeText > em{
+    font-size: 20px;
+    font-weight: 900;
+  }
+
+
+#sectionHomeImg{
+  flex-direction: column;
+  width: 100px;
+  margin-left: 100px;
+}  
+
+
 /* nav bar */
 ul {
     list-style-type: none;
