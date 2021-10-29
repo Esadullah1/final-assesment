@@ -106,23 +106,48 @@ grid-column: 3;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* best destinations page */
+
+/* Tickets */
+
+#tableTickets{
+display: flex;
+margin-top: 20px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+
+}
+
+#asideTickets{
+    display: flex;
+    margin-top: -10%;
+    margin-left: 60%;
+    max-width: min-content;
+ 
+}
+
+#asideTickets > aside{
+  flex-direction: column;
+}
+
+
+
+
+/* Tickets */
 
 
 #cookie{
