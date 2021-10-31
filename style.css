@@ -270,6 +270,7 @@ input[type=submit]:hover {
     text-align: center;
     height: 30px;
     position: sticky;
+    margin-top: 12%;
 
 }
 
@@ -478,7 +479,7 @@ ul {
 
 
 
-
+/* home */
 
   body {
     background-color: blue;
@@ -525,8 +526,10 @@ ul {
     margin-top: 0;
     width: 23%;
   }
-
+/* home */
   
+
+/* Menu */
   a
   {
     text-decoration: none;
@@ -656,21 +659,20 @@ ul {
     opacity: 1;
   }
 
+  /* Menu */
+
 #sectionContainer{
   flex-direction: row-reverse;
 }
 
 #cookieSection{
   position: fixed;
-  padding: 2 em;
-  left: 100%;
-  left: 85%;
-  top: 90%;
-  transform: translateX(-100%);
+  left: 47%;
   background-color: #fA0;
   color: #FFF;
   opacity: 50%;
   width: 80px;
+  top: 93%;
 }
 
 /* best destinations */
@@ -726,12 +728,22 @@ background-color: #98fb98;
 
 /* best destnations */
 
+/* Tickets page */
 
 #containerTickets{
   display: flex;
   flex-flow: column;
 }
 
+#asideTickets{
+  margin-bottom: 100%;
+  margin-top: 100%;
+}
+table{
+ width: 100%;
+}
+
+/* Tickets page */
 
 
 
