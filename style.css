@@ -68,9 +68,10 @@ body{
 
 #asideHome{
   display: flex;
-    flex-direction: column;
-    margin-left: 34%;
-    width: 158px;
+  flex-direction: column;
+  margin-left: 34%;
+  max-width: 237px;
+  min-width: 237px;
 }
 
 #aside{
@@ -178,6 +179,12 @@ tr:nth-child(even) {
 
 /* Contact-page */
 #contact-form{
+  flex: auto;
+  align-content: flex-end;
+  flex-flow: row-reverse;
+}
+
+form{
   width: 50%;
 }
 
@@ -213,15 +220,14 @@ input[type=submit]:hover {
 }
 
 #asideContact{
-  display: flex;
-  margin-top: -23%;
-  margin-left: 60%;
-  max-width: min-content;
-
+ display: flex;
+ flex-basis: min-content;
 }
 
-#asideContact > aside{
-  flex-direction: column;
+
+
+#contactContainer{
+  display: flex;
 }
 
 
@@ -257,7 +263,7 @@ input[type=submit]:hover {
 
 
 #footer{
-    margin-top: 20px;
+    margin-top: 100px;
     background-color: black;
     color: white;
     justify-content: space-between;
@@ -432,6 +438,17 @@ ul {
     border-collapse: collapse;
     width: 100%;
   }
+
+
+  /* Contact */
+
+
+
+
+
+
+
+  /* Contact */
 
   
 
@@ -702,6 +719,9 @@ background-color: #98fb98;
 }
 
 
+#footer{
+  margin-top: 100%;
+}
 
 
 /* best destnations */
@@ -713,6 +733,26 @@ background-color: #98fb98;
 }
 
 
+
+
+/* contact */
+#contactContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-form{
+  margin-bottom: 100%;
+}
+/* contact */
+
+
+}
+
+
+form{
+  width: 100%;
+}
 
 
 
