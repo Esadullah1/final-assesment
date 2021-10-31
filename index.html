@@ -7,34 +7,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
 
-    <img class="logo" src="img/logo.png" alt="Logo">
-
-    <h1>Tui</h1>
-    <h2>Discover your smile</h2>
-
-    <nav id="navBar">
-        <ul>
-            <li><a class="active" href="#home">Home</a></li>
-            <li><a href="bestdestinations.html">Best destinations</a></li>
-            <li><a href="tickets.html">Tickets</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+  
 
 </head>
 <body>
   
+        <header>
+            <img class="logo" src="img/logo.png" alt="Logo">
+
+            <h1>Tui</h1>
+            <h2>Discover your smile</h2>
         
+            <nav id="navBar" role="navigation">
+            <section id="menuToggle">
+        
+                <input id="menuCheckBox" type="checkbox" />
+        
+                <span class="spanMenu"></span>
+                <span class="spanMenu"></span>
+                <span class="spanMenu"></span>
+                
+                <ul id="menu">
+                    <li><a class="active" href="#home">Home</a></li>
+                    <li><a href="bestdestinations.html">Best destinations</a></li>
+                    <li><a href="tickets.html">Tickets</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+        
+            </section>
+            </nav>
+
+
+
+
+
+
+        </header>
 
   
     
-        <video autoplay muted controls:hidden  id="videoHome" src="vids/Travel Promotion Video.mp4">travel destinations video</video>
-
 
 
 
 <section id="sectionContainer">
-    
+    <section id="videoContainer">
+        <video autoplay muted controls:hidden  id="videoHome" src="vids/Travel Promotion Video.mp4">travel destinations video</video>
+    </section>    
 
   
     <section id="sectionHomeText">
@@ -64,12 +82,14 @@
     
 
     <section id="sectionHomeImg">
+        <section id="images"> 
 
         <a href="https://www.tui.nl/">
         <img class="imagesHome" src="img/aruba.jpg" alt="aruba">
         <img class="imagesHome" src="img/bonaire.jpg" alt="bonaire">
-        <img src="img/curacao.jpg" alt="curaçao">
+        <img class="imagesHome" src="img/curacao.jpg" alt="curaçao">
         </a>
+      </section>
     </section>
     
     <section id="aside">

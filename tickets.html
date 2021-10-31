@@ -7,24 +7,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Best destinations</title>
 
-    <img class="logo" src="img/logo.png" alt="Logo">
+
+</head>
+<body>
+
+  <header>
+    
 
     <h1>Tui</h1>
     <h2>Discover your smile</h2>
 
-    <nav id="navBar">
-        <ul>
+    <nav id="navBar" role="navigation">
+    <section id="menuToggle">
+
+      <input id="menuCheckBox" type="checkbox" />
+
+        <span class="spanMenu"></span>
+        <span class="spanMenu"></span>
+        <span class="spanMenu"></span>
+        
+        <ul id="menu">
             <li><a href="index.html">Home</a></li>
             <li><a href="bestdestinations.html">Best destinations</a></li>
             <li><a class="active" href="tickets.html">Tickets</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
+
+    </section>
     </nav>
 
 
 
-</head>
-<body>
+
+
+
+</header>
 
     <article>
         <p>
@@ -36,7 +53,7 @@
     </article>
 
 
-
+    <section id="containerTickets">
 
   <section id="tableTickets">
     <table>
@@ -61,21 +78,23 @@
           <td>05:50 (uur)</td>
         </tr>
       </table>
-    </section>  
-    <p>Source of data © 2021 TUI.nl</p>
 
+      <p>Source of data © 2021 TUI.nl</p>
+    </section>  
+   
 
     <section id="asideTickets">
-        <aside >
-            <a href="https://www.tui.nl/">
-                <img class="imagesHome" src="img/aruba.jpg" alt="aruba">
-                <img class="imagesHome" src="img/bonaire.jpg" alt="bonaire">
-                <img src="img/curacao.jpg" alt="curaçao">
-             </a>
-        </aside>
+      <aside >
+          <a href="https://www.tui.nl/">
+              <img id="imagesTickets1" src="img/aruba.jpg" alt="aruba">
+              <img id="imagesTickets2" src="img/bonaire.jpg" alt="bonaire">
+              <img id="imagesTickets3" src="img/curacao.jpg" alt="curaçao">
+           </a>
+      </aside>
 
-    </section>
-
+  </section>
+    
+</section>
 
 
 
